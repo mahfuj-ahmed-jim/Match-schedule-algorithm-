@@ -1,5 +1,6 @@
 package matchschedulealgorithm;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MatchScheduleAlgorithm {
@@ -173,6 +174,8 @@ public class MatchScheduleAlgorithm {
         teamList.add(team18);
         teamList.add(team19);
         teamList.add(team20);*/
+        
+        Collections.shuffle(teamList);
         
         addOddTeams(teamList);
         
