@@ -108,7 +108,7 @@ public class MatchScheduleAlgorithm {
                 
                 if(i==0){
                     
-                    for(int j=2; j<team[0].length; j++){
+                    for(int j=team[0].length-1; j>1; j--){
                         team[0][j] = team[0][j-1];
                     }
                     
@@ -132,12 +132,26 @@ public class MatchScheduleAlgorithm {
         
         List <Team> teamList = new ArrayList();
 
-        Team team1 = new Team("1");
-        Team team2 = new Team("2");
-        Team team3 = new Team("3");
-        Team team4 = new Team("4");
-        Team team5 = new Team("5");
-        Team team6 = new Team("6");
+        Team team1 = new Team("Jim");
+        Team team2 = new Team("Munna");
+        Team team3 = new Team("Tamim");
+        Team team4 = new Team("Fida");
+        Team team5 = new Team("Mahadi");
+        Team team6 = new Team("Murgi");
+        Team team7 = new Team("Banu");
+        Team team8 = new Team("Rafin");
+        Team team9 = new Team("Rahim");
+        Team team10 = new Team("Moba");
+        Team team11 = new Team("Shanto");
+        Team team12 = new Team("Touhid");
+        Team team13 = new Team("Mahim");
+        Team team14 = new Team("Yasin");
+        Team team15 = new Team("Nasif");
+        Team team16 = new Team("Tarif");
+        Team team17 = new Team("Chayon");
+        Team team18 = new Team("Anis");
+        Team team19 = new Team("Ehsan");
+        Team team20 = new Team("Fahad");
         
         teamList.add(team1);
         teamList.add(team2);
@@ -145,6 +159,20 @@ public class MatchScheduleAlgorithm {
         teamList.add(team4);
         teamList.add(team5);
         teamList.add(team6);
+        teamList.add(team7);
+        teamList.add(team8);
+        teamList.add(team9);
+        teamList.add(team10);
+        /*teamList.add(team11);
+        teamList.add(team12);
+        teamList.add(team13);
+        teamList.add(team14);
+        teamList.add(team15);
+        teamList.add(team16);
+        teamList.add(team17);
+        teamList.add(team18);
+        teamList.add(team19);
+        teamList.add(team20);*/
         
         addOddTeams(teamList);
         
